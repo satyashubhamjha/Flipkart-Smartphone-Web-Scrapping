@@ -30,9 +30,9 @@ This makes it ideal for **data analysts, e-commerce teams, and portfolio project
 
 ## 📂 Project Files
 
-[![Excel](https://img.shields.io/badge/Flipkart_Smartphones_Dataset-Download-green?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/data/flipkart_smartphones.xlsx)
+[![Excel](https://img.shields.io/badge/Flipkart_Smartphones_Dataset-Download-green?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/flipkart%20smartphone%20data.xlsx)
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-View_Analysis-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/notebooks/Flipkart_Smartphone_Web_Scraping.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-View_Analysis-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/flipkart_2_scrap.ipynb)
 
 ---
 
@@ -89,21 +89,4 @@ This makes it ideal for **data analysts, e-commerce teams, and portfolio project
 
 ---
 
-## ⚙️ How to Run Locally
-
-```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping.git
-cd Flipkart-Smartphone-Web-Scrapping
-
-# 2️⃣ (Optional) Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate  # On Windows
-# source venv/bin/activate  # On macOS / Linux
-
-# 3️⃣ Install required libraries
-pip install -r requirements.txt
-
-# 4️⃣ Run the scraping script (if you have one)
-python flipkart_smartphone_scraper.py
 
