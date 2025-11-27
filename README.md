@@ -6,6 +6,9 @@ The project uses **BeautifulSoup, Requests, NumPy, and Pandas** to collect, clea
 
 ---
 
+<img width="1344" height="768" alt="Gemini_Generated_Image_5smrhm5smrhm5smr" src="https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/web%20scraping.png" />
+
+---
 ## 🚀 Project Overview
 
 This project automatically scrapes **smartphone listings from Flipkart** and builds a clean, analytics-ready dataset.
