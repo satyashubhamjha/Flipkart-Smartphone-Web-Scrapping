@@ -33,9 +33,9 @@ Perfect for students, analysts, and developers showcasing **web scraping + data 
 
 ## 📂 Project Files
 
-[![Excel](https://img.shields.io/badge/Flipkart_Smartphones_Dataset-Download-green?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/data/flipkart_smartphones.xlsx)
+[![Excel](https://img.shields.io/badge/Flipkart_Smartphones_Dataset-Download-green?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/flipkart%20smartphone%20data.xlsx)
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-View_Analysis-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/notebooks/Flipkart_Smartphone_Web_Scraping.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-View_Analysis-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/flipkart_2_scrap.ipynb)
 
 ---
 
@@ -83,20 +83,5 @@ Perfect for students, analysts, and developers showcasing **web scraping + data 
 
 ---
 
-## ⚙️ How to Run Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping.git
-cd Flipkart-Smartphone-Web-Scrapping
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the Jupyter notebook
-jupyter notebook notebooks/Flipkart_Smartphone_Web_Scraping.ipynb
-
-
----
 
 
