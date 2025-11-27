@@ -87,4 +87,14 @@ Perfect for students, analysts, and developers showcasing **web scraping + data 
 ---
 
 
+---
+
+# 🙌 Author  
+**SHUBHAM KUMAR JHA**  
+📧 Email: shubhamjha14081@gmail.com 
+🔗 GitHub: https://github.com/satyashubhamjha 
+
+---
+
+
 
