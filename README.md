@@ -1,7 +1,8 @@
 # 📱 Flipkart-Smartphone-Web-Scrapping
 
-A **Python-based web scraping and data analysis project** that extracts smartphone data from **Flipkart** for brands like **Samsung, Apple, Realme, and Motorola**.  
-The project uses **BeautifulSoup, Requests, NumPy, and Pandas** to collect, clean, and structure product information for **price analysis, market research, and e-commerce insights**.
+A **Python-based web scraping and data analysis project** that extracts smartphone data from **Flipkart** for major brands like  
+**Samsung, Apple, Realme, and Motorola**.  
+The project uses **BeautifulSoup, Requests, NumPy, and Pandas** to collect, clean, and structure product information for **market research, competitive analysis, and e-commerce insights**.
 
 ---
 
@@ -9,8 +10,7 @@ The project uses **BeautifulSoup, Requests, NumPy, and Pandas** to collect, clea
 
 This project automatically scrapes **smartphone listings from Flipkart** and builds a clean, analytics-ready dataset.
 
-🔍 From each product, we capture:
-
+### 🔍 From each product, we capture:
 - 📌 **Product Title**  
 - 💸 **Price**  
 - ⭐ **Rating & Number of Ratings**  
@@ -18,74 +18,84 @@ This project automatically scrapes **smartphone listings from Flipkart** and bui
 - 🏷️ **Brand & Variant Details (RAM, Storage, Color, etc.)**  
 - 🔗 **Product URL**
 
+### 🔎 **Scraped Brands**
+We scraped smartphone data for **Samsung**, **Motorola**, **Realme**, and **Apple** from multiple Flipkart pages to ensure complete coverage.
+
 All scraped data is:
+1. Parsed using **BeautifulSoup**  
+2. Cleaned & transformed  
+3. Stored in a **Pandas DataFrame**  
+4. Exported to an **Excel file** for further analysis  
 
-1. Parsed using **BeautifulSoup**
-2. Stored in a **Pandas DataFrame**
-3. Exported to an **Excel file** for further analysis
-
-This makes it ideal for **data analysts, e-commerce teams, and portfolio projects** showing **data engineering + web scraping + Python** skills.
+Perfect for students, analysts, and developers showcasing **web scraping + data engineering + Python** skills.
 
 ---
 
 ## 📂 Project Files
 
-[![Excel](https://img.shields.io/badge/Flipkart_Smartphones_Dataset-Download-green?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/flipkart%20smartphone%20data.xlsx)
+[![Excel](https://img.shields.io/badge/Flipkart_Smartphones_Dataset-Download-green?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/data/flipkart_smartphones.xlsx)
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-View_Analysis-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/flipkart_2_scrap.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-View_Analysis-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping/blob/main/notebooks/Flipkart_Smartphone_Web_Scraping.ipynb)
 
 ---
 
 ## 🧰 Tech Stack & Libraries
 
 - 🐍 **Python** – Core language for scraping & data processing  
-- 🌐 **Requests** – To send HTTP requests to Flipkart pages  
-- 🥣 **BeautifulSoup (bs4)** – To parse and extract HTML elements  
-- 📊 **Pandas** – To build structured DataFrames & export to Excel  
-- 🔢 **NumPy** – For efficient numerical operations  
-- 📓 **Jupyter Notebook** – For interactive development & EDA  
-- 📑 **Excel** – Final, shareable dataset for analysis  
+- 🌐 **Requests** – For sending HTTP requests to Flipkart  
+- 🥣 **BeautifulSoup (bs4)** – HTML parsing & element extraction  
+- 📊 **Pandas** – Creating clean DataFrames & exporting to Excel  
+- 🔢 **NumPy** – Data manipulation & helper functions  
+- 📓 **Jupyter Notebook** – For EDA & documenting steps  
+- 📑 **Excel** – Final export format for analysis  
 
 ---
 
 ## 🔄 Scraping Workflow
 
 1. **Send Request**  
-   - Use `requests.get()` to fetch HTML content from Flipkart search result pages for selected brands (Samsung, Apple, Realme, Motorola).
+   - Fetch HTML content for Samsung, Apple, Realme, and Motorola smartphone pages.
 
 2. **Parse HTML with BeautifulSoup**  
-   - Locate product containers and extract:
-     - Title  
-     - Price  
-     - Rating & Rating Count  
-     - Reviews / Short Description  
-     - Product Link  
+   - Extract titles, prices, ratings, reviews, and links.
 
 3. **Clean & Transform Data**  
-   - Remove symbols from prices  
-   - Convert to proper numeric types  
-   - Handle missing values  
-   - Standardize brand names and specifications  
+   - Remove unwanted characters  
+   - Convert price & rating fields to numeric  
+   - Standardize brand names & specifications  
 
 4. **Build Pandas DataFrame**  
-   - Combine all records into a single, well-structured DataFrame.  
-   - Columns may include:  
-     `["brand", "product_title", "price", "rating", "rating_count", "reviews", "link"]`
+   - Combine all products across 4 brands into a single dataset.  
 
 5. **Export to Excel**  
-   - Save the final dataset as:  
-     `flipkart_smartphones.xlsx`  
-   - Ready to be used in **Excel, Power BI, or any BI tool**.
+   - Save final dataset as:  
+     `flipkart_smartphones.xlsx`
 
 ---
 
 ## 📊 Possible Analysis & Use Cases
 
-- 💸 **Price comparison** across brands (Samsung vs Apple vs Realme vs Motorola)  
-- ⭐ **Rating distribution** and relationship between price and rating  
-- 🏷️ **Feature vs price** comparison (RAM, storage, etc.)  
-- 📈 **Market positioning** and competitive analysis for smartphones  
-- 🛒 Build a **product recommendation or price monitoring tool**  
+- 📈 **Brand comparison** (Samsung vs Apple vs Realme vs Motorola)  
+- 💸 **Price trends** across models & variants  
+- ⭐ **Rating distribution** by brand  
+- 🛍️ **Best-value phones** based on features vs price  
+- 🛒 Build a **price monitoring bot**  
+
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/satyashubhamjha/Flipkart-Smartphone-Web-Scrapping.git
+cd Flipkart-Smartphone-Web-Scrapping
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Jupyter notebook
+jupyter notebook notebooks/Flipkart_Smartphone_Web_Scraping.ipynb
+
 
 ---
 
